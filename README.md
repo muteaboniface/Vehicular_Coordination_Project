@@ -27,8 +27,9 @@ Vehicular Coordination Project/ .... Top src dir
 
 Usage
 -----
-1. Put the HighD dataset ``data/`` in the directory.
-2. You must run the prepare data notebook before the rnn_model notebook
+1. Put the HighD dataset in the ``data/`` directory.
+2. You must run the prepare_data notebook before the rnn_model notebook
+
 3. The scoring file has been customised to fit this usecase. It is not the standard format
 3. Use python3
 4. Spin a local server in the same directory as the scoring file > azmlinfsrv --entry_script score1.py
